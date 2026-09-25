@@ -1,8 +1,8 @@
 # Cinematic Tkinter Birthday Animation 🎬🎂
 
-A beautiful, full-screen 2D animated scene built entirely from scratch using Python's standard `tkinter` library. No external game engines or heavy graphics libraries are required. 
+* **A beautiful, full-screen 2D animated scene built entirely from scratch using Python's standard `tkinter` library. No external game engines or heavy graphics libraries are required.** * 
 
-This project demonstrates how to use the Tkinter Canvas to create procedural environments, custom skeletal animations, and state-machine-based storytelling.
+* **This project demonstrates how to use the Tkinter Canvas to create procedural environments, custom skeletal animations, and state-machine-based storytelling.** *
 
 ## ✨ Features
 
@@ -36,16 +36,16 @@ All you need is Python 3 installed on your system. The project uses standard lib
 Note on Exiting: The animation runs in borderless full-screen mode. To exit the application, press Alt + F4 (Windows/Linux) or Cmd + Q (Mac).
 
 ### 🛠️ Customization Guide
-You can easily modify the source code to personalize the animation for someone else:
-Change the Text: Look for the spawn_dialogue calls in the STATE_KNEEL and STATE_LOVE blocks to change "Happy Birthday" or "I love you".
-Adjust Colors: The environment colors (sky, grass, characters) are defined via standard hex codes (e.g., #87CEEB for the sky).
-Modify Timing: The pacing of the animation is controlled by the timer variable thresholds in the animate() function.
+* **You can easily modify the source code to personalize the animation for someone else:** *
+* **Change the Text: Look for the spawn_dialogue calls in the STATE_KNEEL and STATE_LOVE blocks to change "Happy Birthday" or "I love you".** *
+* **Adjust Colors: The environment colors (sky, grass, characters) are defined via standard hex codes (e.g., #87CEEB for the sky).** *
+* **Modify Timing: The pacing of the animation is controlled by the timer variable thresholds in the animate() function.** *
 
 ### 🎨 Make It Your Own
-Want to surprise someone? You can easily tweak the code to make it personal:
-The Message: Search the code for "Happy Birthday" and "I love you" to change what the characters say.
-The Colors: Change the girl's dress or the boy's jacket by tweaking the hex codes (e.g., #F06292 for pink).
-The Scenery: Adjust the spawn_leaf or spawn_heart functions to change how the particles behave.
+* **Want to surprise someone? You can easily tweak the code to make it personal:** *
+* **The Message: Search the code for "Happy Birthday" and "I love you" to change what the characters say.** *
+* **The Colors: Change the girl's dress or the boy's jacket by tweaking the hex codes (e.g., #F06292 for pink).
+The Scenery: Adjust the spawn_leaf or spawn_heart functions to change how the particles behave.** *
 
 ### 📂 Code Architecture overview
 create_scene(): Renders the static/procedural background elements (mountains, Eiffel tower, trees).
@@ -54,5 +54,6 @@ animate(): The core game loop running at ~30 FPS via Tkinter's .after() method, 
 
 ### 👨‍💻 AUTHOR
 Anurag Bora
+
 GitHub: @anuragsbora
 
